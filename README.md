@@ -15,14 +15,16 @@ Facilitar a integração de sistemas que precisam descriptografar dados sensíve
 
 CRYPTOGRAPHY_PRIVATE_RSA_KEY='sua-chave-privada-aqui'
 
+2. Instale as dependências:
+   ```bash
+   npm start
 
-``
-npm start
-``
+3. Exemplo de payload
+   ```bash
 
-``
-{
-  "hash1": "valor_do_hash1",
-  "hash3": "valor_do_hash3"
-}
-``
+    {
+     "hash1": "valor_do_hash1",
+     "hash3": "valor_do_hash3"
+   }
+
+
